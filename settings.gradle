@@ -1,0 +1,2 @@
+rootProject.name = "CyberMind AI"
+include ':app'
