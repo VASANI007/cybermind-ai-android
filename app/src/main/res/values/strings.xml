@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CyberMind AI</string>
+
+    <!-- Change this if you ever move to a custom domain -->
+    <string name="app_url" translatable="false">https://cybermind-ai.streamlit.app/</string>
+</resources>

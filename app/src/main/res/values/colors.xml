@@ -1,0 +1,7 @@
+<resources>
+    <color name="cybermind_bg">#060B14</color>
+    <color name="cybermind_card">#0F1826</color>
+    <color name="cybermind_grad_a">#6C5CE7</color>
+    <color name="cybermind_grad_b">#22B8F0</color>
+    <color name="white">#FFFFFF</color>
+</resources>
