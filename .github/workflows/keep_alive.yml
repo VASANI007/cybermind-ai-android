@@ -1,0 +1,18 @@
+name: Keep Streamlit App Alive
+
+on:
+  schedule:
+  
+    - cron: '0 */20 * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wake up the app
+        run: |
+          curl -s https://cybermind-ai.streamlit.app > /dev/null
+          curl -s https://ml-studio-pro.streamlit.app > /dev/null
+          curl -s https://multi-asset-price-prediction.streamlit.app/ > /dev/null
+          
